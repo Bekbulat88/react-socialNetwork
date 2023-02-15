@@ -1,0 +1,18 @@
+
+.content {
+    background-color: white;
+}
+
+.profileCover img {
+    width: 100%;
+    height: 30vh;
+ 
+}
+
+.wpSign {
+    font-style: italic;
+    font-size: 5px;
+}
+.wpSign a {
+        font-size: 5px;
+}

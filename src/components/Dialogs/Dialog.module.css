@@ -1,0 +1,54 @@
+.dialogs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80vh;
+    background-color: #6f7f92;
+}
+
+.usersNameAndAva {
+    min-height: 50vh;
+    min-width: 18vw;
+    border: 2px solid firebrick;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 30px;
+    border-radius: 15px;
+ 
+}
+.usersNameAndAva div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.usersAvas {
+margin-right: 10px;
+}
+
+
+.userMessages {
+    min-height: 50vh;
+    min-width: 30vw;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid firebrick;
+    background-color: whitesmoke;
+}
+
+/* .usersNames::after {
+    content: '';
+    width: 3px;
+    height: 50vh;
+    border-radius: 25px;
+    background-color: rgb(90, 82, 94);
+    position: absolute;
+    left: 50%;
+    transform: translateY(-30%);
+} */
+
+.userName.active {
+    color: rgb(131, 131, 211);
+    }
